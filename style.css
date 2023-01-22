@@ -66,11 +66,12 @@ justify-content: center;
     margin: 16px 0;
 }
 .quote-section {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*width: 800px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #E5E7EB;
-    padding: 64px 260px;
+    padding-top: 64px;
+    padding-bottom: 40px;
 }
 .thor {
 align-self: flex-end;
