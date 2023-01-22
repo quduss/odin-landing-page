@@ -49,6 +49,7 @@ button {
 .info-section img {
 height: 200px;
 width: 200px;
+border-radius: 15px;
 }
 .info-section {
     text-align: center;
@@ -57,4 +58,32 @@ width: 200px;
 display: flex;
 gap: 16px;
 justify-content: center;    
+}
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 16px 0;
+}
+.quote-section {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*width: 800px;*/
+    background: #E5E7EB;
+    padding: 64px 260px;
+}
+.thor {
+align-self: flex-end;
+font-size: 24px;
+font-weight: bold;
+font-style: normal;
+
+}
+.quote {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
