@@ -63,7 +63,11 @@ border-radius: 15px;
 .images {
 display: flex;
 gap: 16px;
-justify-content: center;    
+justify-content: center;
+flex-wrap: wrap;    
+}
+.image-container {
+    width: 200px;
 }
 .info {
     font-size: 36px;
