@@ -112,3 +112,10 @@ font-style: normal;
     color: #F9FAF8;
     font-weight: bold;
 }
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 32px 0;
+}
